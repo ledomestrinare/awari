@@ -1,0 +1,53 @@
+aula 12
+
+revisao:
+	 na aula passada vimos os tipos de aprendizagens:
+	 	- supervisionada e nao supervisionada
+	 problemas de modelos de ml:
+	 	- overfitting e underfitting
+	 divisão dos dados:
+	 	- treino, teste e validacao
+	 estrategia para garantir reprodutibilidade de resultados, não overfitar e ajudar a escolher qual modelo a gente vai usar:
+	 	- validação cruzada
+
+livros para aprofundar:
+	além do documento de referências
+	- python machine learning 
+	- the elements of statistical learning
+
+cursos para aprofundar:
+	- coursera: machine learning do andrew ng (octave que é o matlab free)
+	- udacity: intro to machine learning
+	- fast ai: course 18 (de ml)
+
+projeto final awari:
+	- a partir de hoje, tem um mês para usar o que aprendemos ao longo das últimas aulas
+	- na plataforma tem um checklist do conteúdo do projeto final
+	- vocês vão ter 4 semanas após a última aula para entregar o projeto
+	- vocês vão ter uns 2 meses a partir de hoje
+	- entregar todas as atividades e projeto final --> certificado
+
+scikit learn, falando mais sobre estimadores / algoritmos / modelos de aprendizagem:
+	- learning map scikit learn --> como fica a categoria de imóveis aqui?
+	- discussão de visualização de modelos no scikit learn -- comparação de classificadores
+
+aula de hoje:
+	- usar a fundamentação teórica da última aula
+	- finalizar modelo do mercado livre
+	- salvar o modelo para que a gente use para prever dados novos - fazer inferência de novos valores
+	- repare que não precisamos de uma base de dados para prever novos valores, usamos os dados para treinar o nosso modelo e exportammos ele -- com o tempo podemos atualizá-lo e re-treiná-lo
+
+github:
+	- arquivo de eda e pre processamento
+	- ele condensa tudo o que discutimos até agora
+
+aula de hoje:
+ 	- começo ao fim de machine learning
+ 		1. importa dados pre processados
+ 		2. divide em treino e teste
+ 		3. cria um modelo simples para comparar (benchmark/ baseline)
+ 		4. testa e compara diferentes modelos para escolher qual vamos salvar
+ 		5. calibra o modelo com gridsearch - prox aula
+ 		6. salva o modelo no pickle
+ 		7. faz a leitura do modelo do pickle
+ 		8. prevêr um dado
